@@ -21,7 +21,7 @@ System.config({
     "babel": "npm:babel-core@5.5.8",
     "babel-runtime": "npm:babel-runtime@5.5.8",
     "core-js": "npm:core-js@0.9.18",
-    "jvandemo/angular-consent": "github:jvandemo/angular-consent@master",
+    "jvandemo/angular-consent": "github:jvandemo/angular-consent@development",
     "github:angular/bower-angular-cookies@1.4.4": {
       "angular": "github:angular/bower-angular@1.4.4"
     },

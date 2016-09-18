@@ -8,6 +8,7 @@
     "test": "karma start",
     "compile": "node ./bin/compile.js",
     "build": "jspm bundle-sfx app --minify",
+    "deploy": "surge ./dist angular-consent-demo.surge.sh",
     "development-server": "NODE_ENV=development node index.js",
     "production-server": "NODE_ENV=production node index.js"
   },
@@ -21,7 +22,7 @@
   "dependencies": {
     "config": "^1.14.0",
     "express": "^4.12.4",
-    "harp": "^0.17.0",
+    "harp": "^0.20.0",
     "morgan": "^1.6.0"
   },
   "devDependencies": {
